@@ -70,6 +70,18 @@ const numberReducer = (state, action) => {
   return state;
 };
 
+
+
+// REDUCER thứ 2
+const errorReducer = (state, action) => {
+  switch(action.type){
+    case 'LESS_THAN_ZERO':
+      state={
+        
+      }
+  }
+}
+
 // Store
 const store = createStore(numberReducer, appState);
 
